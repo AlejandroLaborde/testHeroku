@@ -9,7 +9,7 @@ const ROUTES: Routes =[
   {path: 'logIn', component: LoginComponent},
   {path: '**', component: ErrorComponent}
 ]
-
+ 
 @NgModule({
   declarations: [],
   imports: [ RouterModule.forRoot(ROUTES)],
